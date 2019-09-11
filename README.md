@@ -5,5 +5,5 @@ This is a repository based on my own tinkering with an FPGA board.
 This is a basic example of using the IO shield with binary representations of numbers to dispay addition, subtraction and multiplication. 
 
 <p float="center">
-<img src="https://github.com/JamesUnicomb/JuFPGA/blob/master/docs/lucid_screenshot.png" width="480" />
+<img src="https://github.com/JamesUnicomb/JuFPGA/blob/master/docs/in_out_test/lucid_screenshot.png" width="480" />
 </p>
