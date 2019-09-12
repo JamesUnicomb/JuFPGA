@@ -9,4 +9,5 @@ This is a basic example of using the IO shield with binary representations of nu
 </p>
 
 A simple demo showing the operation is below:
-[![](https://img.youtube.com/vi/BpOkozvImDQ&t/0.jpg)](https://www.youtube.com/watch?v=BpOkozvImDQ&t)
+
+[![](https://img.youtube.com/vi/BpOkozvImDQ/0.jpg)](https://www.youtube.com/watch?v=BpOkozvImDQ)
