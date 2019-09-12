@@ -11,3 +11,7 @@ This is a basic example of using the IO shield with binary representations of nu
 A simple demo showing the operation is below:
 
 [![](https://img.youtube.com/vi/BpOkozvImDQ/0.jpg)](https://www.youtube.com/watch?v=BpOkozvImDQ)
+
+## LED Clock Counter
+
+[![](https://img.youtube.com/vi/ta-bTDBFUSI/0.jpg)](https://www.youtube.com/watch?v=ta-bTDBFUSI)
