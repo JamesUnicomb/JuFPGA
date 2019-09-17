@@ -15,3 +15,8 @@ A simple demo showing the operation is below:
 ## LED Clock Counter
 
 [![](https://img.youtube.com/vi/ta-bTDBFUSI/0.jpg)](https://www.youtube.com/watch?v=ta-bTDBFUSI)
+
+
+## Stopwatch
+
+[![](https://img.youtube.com/vi/0JB5V0f_EV8/0.jpg)](https://www.youtube.com/watch?v=0JB5V0f_EV8)

@@ -1,0 +1,44 @@
+module stopwatch (
+    input clk,  // clock
+    input rst,  // reset
+    input start_stop, // start/stop signal
+    output value[14]  // counter value
+  ) {
+  
+  .clk(clk) {
+    .rst(rst) {
+      fsm state = {IDLE, RUNNING, PAUSED};
+    } 
+    dff tenth_ctr[24];
+    dff ctr[14];
+  }
+
+  always {
+    value = ctr.q;
+    
+    case (state.q) {
+      state.IDLE:
+        tenth_ctr.d = 0;
+        ctr.d       = 0;
+        if (start_stop)
+          state.d = state.RUNNING;
+        
+      state.RUNNING:
+        tenth_ctr.d = tenth_ctr.q + 1;
+        
+        if (tenth_ctr.q == 9999999) {
+          tenth_ctr.d = 0;
+          ctr.d = ctr.q + 1;
+          if (ctr.q == 9999)
+            ctr.d = 0;
+        }
+        if (start_stop)
+          state.d = state.PAUSED;
+          
+      state.PAUSED:
+        if (start_stop)
+          state.d = state.RUNNING;
+          
+    }
+  }
+}
