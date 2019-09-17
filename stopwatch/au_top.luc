@@ -51,7 +51,7 @@ module au_top (
     
     digits.value = stopwatch.value;
     seg_display.values = digits.digits;
-    seg_display.decimal = 4b0010;
+    seg_display.decimal = 4b0100;
     
     io_seg = ~seg_display.seg;
     io_sel = ~seg_display.sel;       

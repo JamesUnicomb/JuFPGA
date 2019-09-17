@@ -26,7 +26,7 @@ module stopwatch (
       state.RUNNING:
         tenth_ctr.d = tenth_ctr.q + 1;
         
-        if (tenth_ctr.q == 9999999) {
+        if (tenth_ctr.q == 999999) {
           tenth_ctr.d = 0;
           ctr.d = ctr.q + 1;
           if (ctr.q == 9999)
