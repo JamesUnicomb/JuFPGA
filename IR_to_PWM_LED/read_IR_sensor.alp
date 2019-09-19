@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="read_IR_sensor" board="Alchitry Au" language="Verilog" version="2">
+  <files>
+    <src top="true">au_top.v</src>
+    <src>pwm.v</src>
+    <src>xadc_wiz_0.v</src>
+    <constraint>io.acf</constraint>
+    <constraint lib="true">au.xdc</constraint>
+  </files>
+</project>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Sep 19 14:29:47 2019
+# Process ID: 9869
+# Current directory: /home/james/alchitry/read_IR_sensor/work/vivado/read_IR_sensor/read_IR_sensor.runs/synth_1
+# Command line: vivado -log au_top_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source au_top_0.tcl
+# Log file: /home/james/alchitry/read_IR_sensor/work/vivado/read_IR_sensor/read_IR_sensor.runs/synth_1/au_top_0.vds
+# Journal file: /home/james/alchitry/read_IR_sensor/work/vivado/read_IR_sensor/read_IR_sensor.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source au_top_0.tcl -notrace
