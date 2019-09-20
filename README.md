@@ -38,3 +38,13 @@ This takes in a signal from a potentiometer.
 
 [![](https://img.youtube.com/vi/EgQyOCMgAjs/0.jpg)](https://www.youtube.com/watch?v=EgQyOCMgAjs)
 
+
+### Controlling an RGB LED from Analog Input
+
+From the analog signals, we control the output of the pins connected to an RGB LED to change the colour of the light. 
+
+[![](https://img.youtube.com/vi/g2sVJFCQYy0/0.jpg)](https://www.youtube.com/watch?v=g2sVJFCQYy0)
+
+[![](https://img.youtube.com/vi/MgEa42TiXPE/0.jpg)](https://www.youtube.com/watch?v=MgEa42TiXPE)
+
+
