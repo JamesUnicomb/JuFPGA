@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Analog_to_RGB" board="Alchitry Au" language="Verilog" version="2">
+  <files>
+    <src top="true">au_top.v</src>
+    <src>xadc_wiz_0.v</src>
+    <src>pwm.v</src>
+    <constraint>shield_IO.acf</constraint>
+    <constraint lib="true">au.xdc</constraint>
+  </files>
+</project>
