@@ -48,3 +48,14 @@ From the analog signals, we control the output of the pins connected to an RGB L
 [![](https://img.youtube.com/vi/MgEa42TiXPE/0.jpg)](https://www.youtube.com/watch?v=MgEa42TiXPE)
 
 
+# Mimas A7
+
+## Flashing the Mimas A7 with OpenOCD
+
+'''
+sudo openocd -f numato_mimasa7.cfg -c "init" -c "pld load 0 ../vivado/mimasa7_hdmi_out/mimasa7_hdmi_out.runs/impl_1/dvid_test.bit" -c "shutdown"
+'''
+
+
+
+
