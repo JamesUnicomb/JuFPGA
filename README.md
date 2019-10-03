@@ -56,6 +56,14 @@ From the analog signals, we control the output of the pins connected to an RGB L
 sudo openocd -f numato_mimasa7.cfg -c "init" -c "pld load 0 ../vivado/mimasa7_hdmi_out/mimasa7_hdmi_out.runs/impl_1/dvid_test.bit" -c "shutdown"
 ```
 
+## HDMI Output with Mandelbrot LUT
+
+As a basic demo, we can precompute the mandelbrot set and store it in the FPGA as a LUT. 
+
+<p align="center">
+  <img src="" width="480" title="hover text" width="350">
+</p>
+
 
 
 
