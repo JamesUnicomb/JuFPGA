@@ -61,7 +61,7 @@ sudo openocd -f numato_mimasa7.cfg -c "init" -c "pld load 0 ../vivado/mimasa7_hd
 As a basic demo, we can precompute the mandelbrot set and store it in the FPGA as a LUT. 
 
 <p align="center">
-  <img src="" width="480" title="hover text" width="350">
+  <img src="https://github.com/JamesUnicomb/JuFPGA/blob/master/mandelbrot_HDMI_LUT/mandelbrot_lut_hdmi.JPG" width="480" title="hover text" width="350">
 </p>
 
 
