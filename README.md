@@ -65,5 +65,12 @@ As a basic demo, we can precompute the mandelbrot set and store it in the FPGA a
 </p>
 
 
+## HDMI Output with Screen Brightness Control from IR Sensor
+
+[![](https://img.youtube.com/vi/0eKhvgNOn18/0.jpg)](https://www.youtube.com/watch?v=0eKhvgNOn18)
+
+
+
+
 
 
