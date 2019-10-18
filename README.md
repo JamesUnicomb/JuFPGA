@@ -69,6 +69,12 @@ As a basic demo, we can precompute the mandelbrot set and store it in the FPGA a
 
 [![](https://img.youtube.com/vi/0eKhvgNOn18/0.jpg)](https://www.youtube.com/watch?v=0eKhvgNOn18)
 
+## HDMI Output displaing Mandelbrot set Control from IR Sensor
+
+<p align="center"><img src="https://latex.codecogs.com/gif.latex?\begin{align*}&space;z_0&space;&&space;=&space;0&space;\\&space;z_{n&plus;1}&space;&=&space;z_n^d&space;&plus;&space;c&space;\end{align*}" title="\begin{align*} z_0 & = 0 \\ z_{n+1} &= z_n^d + c \end{align*}" /></p>
+
+[![](https://img.youtube.com/vi/_Eo6dRAJnyw/0.jpg)](https://www.youtube.com/watch?v=_Eo6dRAJnyw)
+
 
 
 
